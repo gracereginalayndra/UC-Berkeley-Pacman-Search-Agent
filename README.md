@@ -58,67 +58,6 @@ FIT3080-Pacman-AI-Search-to-Learning/
 └── requirements.txt                # Python dependencies
 ```
 
-## 🚀 Quick Start
-
-### Assignment 1
-```bash
-# Single dot A* search
-cd Assignment1
-python pacman.py -l layouts/q1a_tinyMaze.lay -p SearchAgent -a fn=q1a_solver,prob=q1a_problem --timeout=1
-
-# Multi-dot collection
-python pacman.py -l layouts/q1b_tinySearch.lay -p SearchAgent -a fn=q1b_solver,prob=q1b_problem --timeout=10
-
-# Adversarial search
-python pacman.py -l layouts/q2_testClassic.lay -p Q2_Agent --timeout=30
-```
-
-### Assignment 3
-```bash
-# MDP value iteration
-cd Assignment3
-python pacman.py -l layouts/VI_smallMaze1.lay -p Q1Agent -a discount=0.9,iterations=100 -g StationaryGhost -n 40
-
-# Q-learning
-python pacman.py -l layouts/QL_small_1.lay -p Q2Agent -a epsilon=0.1,alpha=0.5,gamma=0.9 -x 1000 -n 1040
-
-# Train ML model
-python trainModel.py -m models/q3.model
-
-# Test ML agent
-python pacman.py -l layouts/ML_mediumClassic1.lay -p Q3Agent -a model_path=models/q3.model
-```
-
-## 📊 Evaluation & Grading
-
-### Assignment 1
-- **Q1(a):** 5 marks, evaluated on 5 instances with optimality ratio scoring
-- **Q1(b):** 20 marks, evaluated on 20 instances relative to baseline
-- **Q2:** 25 marks, evaluated on 25 adversarial instances
-- **Report:** 30 marks (8-page technical report)
-
-### Assignment 3
-- **Q1:** 12 marks, MDP performance on small/medium/large mazes
-- **Q2:** 21 marks, Q-learning performance with epsilon-greedy exploration
-- **Q3:** 32 marks, ML model performance on 16 unseen mazes
-- **Report:** 15 marks (6-page technical report)
-
-## 🔧 Dependencies
-
-**Assignment 1:**
-- Python 3.x
-- NumPy, SciPy (for Q1(a) only)
-
-**Assignment 3:**
-- Python 3.x
-- NumPy
-- *Note: Neural network libraries are NOT allowed for Q3*
-
-Install all dependencies:
-```bash
-pip install numpy scipy
-```
-
 ## 📝 Key Features
 
 ### Search Algorithms (Assignment 1)
