@@ -31,21 +31,21 @@ This repository contains implementations for two FIT3080 (Artificial Intelligenc
 FIT3080-Pacman-AI-Search-to-Learning/
 ├── Assignment1/                    # Assignment 1: Search
 │   ├── agents/
-│   │   ├── q1a_solver.py          # A* solver (single dot)
-│   │   ├── q1b_solver.py          # Multi-dot solver
-│   │   └── q2_agent.py            # Alpha-beta adversarial agent
+│   │   ├── q1a_solver.py           # A* solver (single dot)
+│   │   ├── q1b_solver.py           # Multi-dot solver
+│   │   └── q2_agent.py             # Alpha-beta adversarial agent
 │   ├── layouts/                    # Maze layouts for Assignment 1
 │   ├── reports/                    # Assignment 1 report
 │   └── README_assignment1.md       # Assignment-specific instructions
 │
 ├── Assignment3/                    # Assignment 3: RL & ML
 │   ├── agents/
-│   │   ├── q1_agent.py            # MDP value/policy iteration
-│   │   ├── q2_agent.py            # Q-learning agent
-│   │   └── q3_agent.py            # ML-based agent
+│   │   ├── q1_agent.py             # MDP value/policy iteration
+│   │   ├── q2_agent.py             # Q-learning agent
+│   │   └── q3_agent.py             # ML-based agent
 │   ├── models/
-│   │   ├── q3_model.py            # ML model definition
-│   │   └── q3.model               # Saved trained model
+│   │   ├── q3_model.py             # ML model definition
+│   │   └── q3.model                # Saved trained model
 │   ├── layouts/                    # Maze layouts for Assignment 3
 │   ├── reports/                    # Assignment 3 report
 │   └── README_assignment3.md       # Assignment-specific instructions
